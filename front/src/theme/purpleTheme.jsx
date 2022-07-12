@@ -5,13 +5,13 @@ import { red } from "@mui/material/colors";
 export const purpleTheme = createTheme({
   palette: {
     primary: {
-      main: '#225654'
+      main: '#262254'
     },
     secondary: {
       main:'#543884'
     },
     error: {
-      main: red.A200
+      main: red.A400
     }
   }
 })
