@@ -15,7 +15,9 @@ import { TurnedInNot } from "@mui/icons-material"
 
 import { Box } from "@mui/system"
 
-export const SideBar = ({ drawerWidth, toogleDrawer }) => {
+
+
+export const SideBar2 = ({ drawerWidth, toogleDrawer }) => {
   return (
     <Box
       component="nav"

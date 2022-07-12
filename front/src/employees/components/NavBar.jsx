@@ -15,7 +15,7 @@ export const NavBar = ({ drawerWidth = 240 }) => {
         <IconButton
           color='inherit'
           edge='start'
-          sx={{ mr: 2, display:{ sm: 'none' } }}
+          sx={{ mr: 2, display:{ sm: 'flex' } }}
         >
           <MenuOutlined />
         </IconButton>
@@ -26,6 +26,7 @@ export const NavBar = ({ drawerWidth = 240 }) => {
           </IconButton>
         </Grid>
       </Toolbar>
+      
     </AppBar>
   )
 }
